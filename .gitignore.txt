@@ -1,0 +1,6 @@
+Mplab/Proyecto.X/build/
+Mplab/Proyecto.X/dist/
+Mplab/Proyecto.X/nbproject/Makefile-*
+Mplab/Proyecto.X/nbproject/Package-*
+Proteus/*.pdsbak
+Proteus/*.workspace 
