@@ -1,0 +1,9 @@
+https://github.com/ExploreEmbedded/Tutorials/blob/master/AVR%20Tutorials/Interfacing%20GLCD%20JHD12864E/code/main.c
+https://exploreembedded.com/wiki/Interfacing_GLCD(128x64)_with_PIC16F877A
+https://www.tonica.la/geek/Recordando-a-los-clasicos-Pokemon-Red--Pokemon-Blue-20200412-0027.html
+https://www.google.com/search?q=pokemon+red+sprite&tbm=isch&ved=2ahUKEwjA99mn6uPxAhWIkoQIHVw7C8sQ2-cCegQIABAA&oq=pokemon+red+sprite&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADIECAAQHjIECAAQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB46BAgAEENQpw5Y7hNg3hRoAHAAeACAAasCiAGWCJIBBTAuNC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=woLvYMCOB4ilkvQP3Pas2Aw&bih=937&biw=1920&rlz=1C1ALOY_esVE955VE955
+https://exploreembedded.com/wiki/Interfacing_KS0108_based_JHD12864E_Graphics_LCD_with_Atmega32
+https://pic-microcontroller.com/interfacing-graphical-lcdglcd-jhd12864e-with-microchip-pic16f877-microcontroller-2/
+https://www.engineersgarage.com/displaying-images-on-graphical-lcd/
+https://github.com/camilstaps/T6963C_PIC
+https://www.electro-tech-online.com/articles/interfacing-a-toshiba-t6963c-equipped-glcd-with-a-pic-microcontroller.482/
