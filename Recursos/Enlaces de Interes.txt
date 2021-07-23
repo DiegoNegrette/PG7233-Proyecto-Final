@@ -7,3 +7,4 @@ https://pic-microcontroller.com/interfacing-graphical-lcdglcd-jhd12864e-with-mic
 https://www.engineersgarage.com/displaying-images-on-graphical-lcd/
 https://github.com/camilstaps/T6963C_PIC
 https://www.electro-tech-online.com/articles/interfacing-a-toshiba-t6963c-equipped-glcd-with-a-pic-microcontroller.482/
+https://www.exploreembedded.com/wiki/Graphics_LCD_Basics_:_KS0108_based_JHD12864E
