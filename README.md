@@ -34,7 +34,7 @@ Este proyecto se encuentra alojado en [GitHub](https://github.com/DiegoNegrette/
 git clone https://github.com/DiegoNegrette/PG7233-Proyecto-Final.git
 ```
 
-**[Volver al Inicio](#table-of-contents)**
+**[Volver al Inicio](#tabla-de-contenidos)**
 
 ## Dependencias
 
@@ -43,7 +43,7 @@ Este proyecto requiere de los siguientes elementos para su uso:
 * [MPLABX](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide)
 * [Proteus](https://www.labcenter.com/simulation/)
 
-**[Volver al Inicio](#table-of-contents)**
+**[Volver al Inicio](#tabla-de-contenidos)**
 
 # Detalles tecnicos
 
@@ -176,14 +176,14 @@ En el siguiente video se puede visualizar una partida completa de este minijuego
 https://www.youtube.com/watch?v=O-F6iQj7Wjo&t=61s
 
 
-**[Back to top](#table-of-contents)**
+**[Back to top](#tabla-de-contenidos)**
 
 # Proximas mejoras
 Para próximas ediciones se desea agregar animaciones a la pantalla de pelea, asi como también tomar en cuenta otros factores utilizados para el cálculo del daño como el nivel, la probabilidad de hits adicionales y cambiar el cálculo de la probabilidad de crítico en función de la velocidad de ataque del personaje.
 
 Adicionalmente, el tipo de ataque puede generar multiplicaciones al daño adicional dependiendo del tipo de Pokemon al que se este atacando.
 
-**[Back to top](#table-of-contents)**
+**[Back to top](#tabla-de-contenidos)**
 
 # Autor
 
