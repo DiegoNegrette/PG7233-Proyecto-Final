@@ -173,7 +173,7 @@ Dicha bandera se encuentra apagada en el código de este repositorio para mejora
 
 En el siguiente video se puede visualizar una partida completa de este minijuego utilizando Proteus para simular el dispositivo
 
-https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/VideoGameplay/Gameplay.mp4
+https://www.youtube.com/watch?v=O-F6iQj7Wjo&t=61s
 
 
 **[Back to top](#table-of-contents)**
