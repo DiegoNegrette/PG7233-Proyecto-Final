@@ -120,8 +120,8 @@ Para la selección del orden de ataque, los movimientos utilizados por la comput
 
 El cálculo del daño de ataque se realiza como se describe en el siguiente segmento de código para python.
 
-def calculate_damage(a, b, c, d, x, y, crit):
     """
+    def calculate_damage(a, b, c, d, x, y, crit):
     Computes the damage to apply given some parameters.
     
     Parameters
