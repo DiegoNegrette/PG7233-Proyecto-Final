@@ -51,9 +51,12 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "delay.h"
+#include "ext_int.h"
+#include "tmr2.h"
 #include "interrupt_manager.h"
 #include "traps.h"
+#include "uart1.h"
+#include "delay.h"
 
 #warning "This file will be removed in future MCC releases. Use system.h instead."
 

@@ -1,3 +1,4 @@
+
 /**
  * C library for interfacing a T6963C display with a PIC microcontroller
  * Copyright (C) 2015 Camil Staps <info@camilstaps.nl>
@@ -146,7 +147,6 @@ extern inline void t6963c_t_data(unsigned int);
 #define t6963c_CMD_ReadUnchanged                  0b11000101
 
 // COMMANDS: BIT SET / RESET
-
 #define t6963c_CMD_BitReset                       0b11110000 // Ultimos 3 bits deben decidir cual de los 8 bits se editará
 #define t6963c_CMD_BitSet                         0b11111000
 
@@ -159,10 +159,13 @@ extern inline void t6963c_t_data(unsigned int);
 #define Delay_ns                                  2 //ns
 #define SizeChar                                  0x8
 
-// Verificar los valores de estas constantes
-#define t6963c_TextAddress                        0x000
-#define t6963c_GraphicAddress                     0x800
-#define t6963c_OffsetAddress                      0x00
+// Definir secciones de memoria
+#define t6963c_TextAddress                        0x17FF
+#define t6963c_GraphicAddress                     0x0000
+#define t6963c_OffsetAddress                      0b0001111
+
+#define screen_width                              240 //px
+#define screen_height                             128 //px
         
 /**
  * Write a single byte to the LCD
@@ -247,6 +250,8 @@ void t6963c_set_cursor_address(unsigned char row, unsigned char column);
  * This function may be used as a callback from a Terminal.update.
  */
 //void t6963c_update_terminal(Terminal*);
+
+void t6963c_set_address_for_text(unsigned char row, unsigned char column);
 
 #ifdef	__cplusplus
 }

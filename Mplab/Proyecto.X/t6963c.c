@@ -147,3 +147,8 @@ void t6963c_set_address(unsigned char row, unsigned char column) {
 void t6963c_set_cursor_address(unsigned char row, unsigned char column) {
     t6963c_writeCmd2(t6963c_CMD_CursorPointerSet, column, row);
 }
+
+void t6963c_set_address_for_text(unsigned char row, unsigned char column) {
+    unsigned short address = ((unsigned short) row) * ((unsigned short) t6963c_columns) + column;
+    t6963c_writeCmd2(t6963c_CMD_AddressPointerSet, (t6963c_TextAddress+address) & 0xff, (((t6963c_TextAddress+address) >> 8) & 0xff));
+}

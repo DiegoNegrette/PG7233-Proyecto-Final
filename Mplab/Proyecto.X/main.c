@@ -48,18 +48,38 @@
 #include "mcc_generated_files/system.h"
 #include "pokemon.h"
 #include "t6963c.h"
+#include "mcc_generated_files/ext_int.h"
+#include <stdio.h>
 
 /*
                          Main application
  */
 int main(void)
 {
+    Pokemon player;
+    Pokemon computer;
     // initialize the device
     SYSTEM_Initialize();
-    
+    int pokemon_select;
     t6963c_init();
+    printf("  * USB PG7233 *\r");
+    printf("  * Diego Negrette 19-91277 *\r\r");
+    printf("  Iniciando el juego");
     Game_Start();
-
+    printf("\r\r  * PRESIONE START *\r\r");
+    interrupt_enable_all();
+    while(game_stage == SCREEN_START);
+    interrupt_disable_all();
+    printf("  Cargando el mapa");
+    Show_Map();
+    interrupt_enable_all();
+    pokemon_select = Play_Map();
+    interrupt_disable_all();
+    printf("\r\r  Cargando batalla");
+    Load_Pokemon(&player,&computer,pokemon_select);
+    Show_pokemons(&player,&computer,pokemon_select);
+    Battle_loop(&player, &computer);
+    
     while (1)
     {
         // Add your application code

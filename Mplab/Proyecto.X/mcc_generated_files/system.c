@@ -65,15 +65,21 @@
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
-#include "delay.h"
+#include "ext_int.h"
+#include "tmr2.h"
 #include "interrupt_manager.h"
 #include "traps.h"
+#include "uart1.h"
+#include "delay.h"
 
 void SYSTEM_Initialize(void)
 {
     PIN_MANAGER_Initialize();
     INTERRUPT_Initialize();
     CLOCK_Initialize();
+    TMR2_Initialize();
+    EXT_INT_Initialize();
+    UART1_Initialize();
 }
 
 /**
