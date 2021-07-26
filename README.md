@@ -5,7 +5,7 @@ Este proyecto es un minijuego de Pokemon, desarrollado para el Microcontrolador 
 Utilice a Charmander o Squirtle para derrotar a Pikachu (computador)
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/animation.gif">
+  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/animation.gif">
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ Los botones A,B,C y D funcionan como flechas de movimiento mientras navega por e
 Las interrupciones ligadas a cada boton son deshabilitadas y habilitadas a conveniencia para evitar comportamientos indeseados durante la carga de los sprites en la pantalla.
 
 <p align="center">
-  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/botones.png">
+  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/botones.png">
 </p>
 
 ## Movimiento en el mapa
@@ -72,13 +72,13 @@ Mediante una rutina de detección de colisiones se evita que el jugador se despl
 Las Pokebolas y el jugador son agregados al mapa original mediante una superposición de ambos sprites.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/animation.gif">
+  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/animation.gif">
 </p>
 
 Durante el desarrollo del juego, podrá visualizar los mensajes generados en la consola enviados mediante comunicación serial desde el PIC
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/Screenshot_1.png">
+  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/Screenshot_1.png">
 </p>
 
 ## Sprites
@@ -87,19 +87,19 @@ Los sprites utilizados para el mapa, los pokemones, la pantalla de inicio, las p
 Para la conversión de las imagenes a matrices se utilizó la herramienta [LCD Assistant](http://en.radzio.dxp.pl/bitmap_converter/)
 
 <p align="center">
-  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/map_original.png">
+  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/map_original.png">
 </p>
 <p align="center">
   <small> Mapa original </small>  
 </p>
 <p align="center">
-  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/map_resize.png">
+  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/map_resize.png">
 </p>
 <p align="center">
   <small> Mapa 240x188 </small>  
 </p>
 <p align="center">
-  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/map_bitmap.bmp">
+  <img src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/map_bitmap.bmp">
 </p>
 <p align="center">
   <small> Mapa bitmap </small>  
@@ -162,18 +162,18 @@ Los cálculos intermedios pueden ser verificados en proteus enciendo la bandera 
 Dicha bandera se encuentra apagada en el código de este repositorio para mejorar la fluidez del juego
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/Screenshot_2.png">
+  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/Screenshot_2.png">
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/Imagenes/Screenshot_3.png">
+  <img width="460" height="300" src="https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/Imagenes/Screenshot_3.png">
 </p>
 
 ## Simulacion
 
 En el siguiente video se puede visualizar una partida completa de este minijuego utilizando Proteus para simular el dispositivo
 
-https://github.com/DiegoNegrette/PG7233-Proyecto-Final/VideoGameplay/Gameplay.mp4
+https://github.com/DiegoNegrette/PG7233-Proyecto-Final/blob/main/VideoGameplay/Gameplay.mp4
 
 
 **[Back to top](#table-of-contents)**
