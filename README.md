@@ -17,12 +17,12 @@ Utilice a Charmander o Squirtle para derrotar a Pikachu (computador)
 
 1. [Inicio](#getting-started) 
     1. [Source](#source)
-    2. [Dependencias](#dependencies)
-2. [Detalles tecnicos](#technical-details) 
-3. [Simulacion](#simulation)
-4. [Mejoras Futuras](#upcoming-enhancements)
-5. [Autor](#authors)
-6. [Licencia](#license)
+    2. [Dependencias](#dependencias)
+2. [Detalles tecnicos](#detalles-tecnicos) 
+3. [Simulacion](#simulat=cion)
+4. [Mejoras Futuras](#proximas-mejoras)
+5. [Autor](#autor)
+6. [Licencia](#licencia)
 
 # Getting Started
 
@@ -45,7 +45,7 @@ Este proyecto requiere de los siguientes elementos para su uso:
 
 **[Volver al Inicio](#table-of-contents)**
 
-# Detalles técnicos
+# Detalles tecnicos
 
 ## PIC
 Este proyecto fue desarrollado para el [PIC24FJ128GA010](https://ww1.microchip.com/downloads/en/DeviceDoc/39747F.pdf). 
@@ -178,7 +178,7 @@ https://www.youtube.com/watch?v=O-F6iQj7Wjo&t=61s
 
 **[Back to top](#table-of-contents)**
 
-# Próximas mejoras
+# Proximas mejoras
 Para próximas ediciones se desea agregar animaciones a la pantalla de pelea, asi como también tomar en cuenta otros factores utilizados para el cálculo del daño como el nivel, la probabilidad de hits adicionales y cambiar el cálculo de la probabilidad de crítico en función de la velocidad de ataque del personaje.
 
 Adicionalmente, el tipo de ataque puede generar multiplicaciones al daño adicional dependiendo del tipo de Pokemon al que se este atacando.
